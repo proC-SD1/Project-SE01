@@ -1,1 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background: lightgray;
+  color: black;
+  overflow-y: scroll;
+  display: block;
+ }
+a{
+  text-decoration: none;
+}
+h1{
+  padding: 10px;
+   margin: 0px;
+font-family: 'Oswald', sans-serif;
+font-weight: 700;
+    color: black;
+    background-color: #ff7f50;
+    font-size: 36px;
+}
+h1 span{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+  }
+h2{
+    padding: 10px;
+     margin: 0px;
+     text-align: right;
+     font-size: 18px;
+    font-family: sans-serif;
+    background-color: #ff7f50;
+}
+img{
+  width: 200px;
+  margin-top: 20px;
+  margin-left:30px;
+}
+figure{
+  margin: 10px;
+  padding: 0px;
+  float: right;
+  font-size: 0px;
+}
+h3{
+     font-size: 25px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-left: 50px;
+     margin-right: 30px;
+    font-family: sans-serif;
+    width: 300px;
+
+    position: relative;
+    padding: 1rem 2rem;
+    border-bottom: 6px solid #094;
+}
+    h3:before {
+      position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 20%;
+  height: 6px;
+  content: '';
+  background: #00cc5b;
+    }
+
+
+
+
+h4{
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 30px;
+ font-family: sans-serif;
+ width: 300px;
+
+ position: relative;
+ padding: 1rem 2rem;
+ border-bottom: 6px solid #094;
+}
+ h４:before {
+   position: absolute;
+bottom: -6px;
+left: 0;
+width: 20%;
+height: 6px;
+content: '';
+background: #00cc5b;
+ }
+p{
+      font-size: 13px;
+     font-family: serif;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+nav{
+  background: #ff7f50;
+  padding-bottom: 10px;
+  text-align: right;
+}
+
+ul.sidenav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	background-color: #f1f1f1;
+	position: relative;
+	overflow: auto;
+}
+ul.sidenav li a {
+	display: block;
+	color: #000000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+ul.sidenav li a.active {
+	background-color: #da3c41;
+	color: white;
+}
+ul.sidenav li a:hover:not(.active) {
+	background-color: #1b2538;
+	color: white;
+}
+div.content {
+	margin-left: 25%;
+	padding: 1px 16px;
+	height: 1000px;
+}
+@media screen and (max-width: 900px) {
+	ul.sidenav {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	ul.sidenav li a {
+		float: left;
+		padding: 15px;
+	}
+	div.content {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 480px) {
+	ul.sidenav li a {
+		text-align: center;
+		float: none;
+	}
+}
+#b-box{
+  font-size: 16px;
+  margin-right: auto;
+   margin-left: auto;
+   
+}
+#c-box{
+  overflow: hidden;
+  background-color: white;
+  width: 500px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #808080;
+  margin-right: auto;
+  margin-left: auto;
+}
+#d-box{
+
+
+ margin-left: 40px;
+ background-color: white;
+ float: left;
+
+}
+
+#e-box{
+ margin-left: 140px;
+ margin-top: -135px;
+ width: 62rem;
+ height: auto;
+ background-color: ivory;
+}
+
+#f-box{
+  background-color: ivory;
+  width: 30rem;
+  height: 40rem;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+#g-box{
+  background-color: ivory;
+  width: 30rem;
+  height: 40rem;
+  margin-left: 650px;
+  margin-top: -640px;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0; /* 全てのプロパティの余白とパディングをリセットしています。*/
+}
+#wrapper {
+  width: 700px;
+  margin: 0 auto;/* 幅固定（700px）でセンタリングします。*/
+}
+#header {
+  width: 700px;
+  height: 50px;  /* サイトロゴの高さに合わせて調節して下さい。*/
+}
+
+#menu {
+  margin-top: -25px;
+
+  /* display: block;     floatの width 指定は必須です。*/
+}
+
+/*--------------------------------------
+  カード型_06
+--------------------------------------*/
+.l-wrapper_06 {
+  margin: 1rem auto;
+  width: 400px;
+  height: 200px;
+  float: right;
+  margin-right: 90px;
+  margin-top: -650px;
+}
+
+.l-wrapper_06:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 7px 34px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+  transition: all .5s;
+}
+.card_06 {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  
+}
+
+.card-img_06 {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+.card-content_06 {
+  padding: 8px 20px 20px;
+}
+.card-title_06 {
+  font-size: 1.6em;
+  color: #333;
+  font-weight: 700;
+}
+.card-text_06 {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 0.2em;
+}
+.card-link_06 {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding: 20px;
+}
+.card-link_06 a {
+  text-decoration: none;
+  color: #4f96f6;
+  margin: 0 10px;
+}
+.card-link_06 a:hover {
+  color: #6bb6ff;
+}
+
+.card-content_06 p {
+  margin-bottom:0;
+}
+
+
+/*--------------------------------------
+  カード型_05
+--------------------------------------*/
+.l-wrapper_05 {
+  margin: 1rem auto;
+  width: 400px;
+  height: 200px;
+  float: right;
+  margin-right: 90px;
+  margin-top: -250px;
+}
+
+.l-wrapper_05:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 7px 34px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+  transition: all .5s;
+}
+.card_05 {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  
+}
+
+.card-img_05 {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+.card-content_05 {
+  padding: 8px 20px 20px;
+}
+.card-title_05 {
+  font-size: 1.6em;
+  color: #333;
+  font-weight: 700;
+}
+.card-text_05 {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 0.2em;
+}
+.card-link_05 {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding: 20px;
+}
+.card-link_05 a {
+  text-decoration: none;
+  color: #4f96f6;
+  margin: 0 10px;
+}
+.card-link_05 a:hover {
+  color: #6bb6ff;
+}
+
+.card-content_05 p {
+  margin-bottom:0;
+}
+
+@media screen and (max-width: 767px) {
+
+  .l-wrapper_06 {
+    margin: 1rem auto;
+    width:400px;
+    height: 200px;
+    margin-left: 30px;
+    float: left;
+  }
+}
+
+
+
+  @media screen and (max-width: 1630px) {
+
+    .l-wrapper_06 {
+      margin: 1rem auto;
+      width:400px;
+      height: 200px;
+      margin-left: 30px;
+      float: left;
+    }
+    .l-wrapper_05 {
+      margin: 1rem auto;
+      width:400px;
+      height: 200px;
+      margin-left: 30px;
+      float: left;
+    }
+
+    #f-box{
+      background-color: ivory;
+      width: 30rem;
+      height: 40rem;
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+    
+    #g-box{
+      background-color: ivory;
+      width: 30rem;
+      height: 40rem;
+      margin-left: 30px;
+      margin-top: 50px;
+  
+    }
+  
+
+
+
+}
